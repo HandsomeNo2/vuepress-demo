@@ -2,23 +2,22 @@ import type { NavbarConfig } from '@vuepress/theme-default'
 export const navbar: NavbarConfig = [
         // 嵌套 Group - 最大深度为 2
     {
-        text: '部署相关',
+        text: 'Group',
         children: [
             {
-                text: '项目部署',
+                text: 'GroupOne',
                 children: [
-                    '/guide/deploy/常用命令.md',
-                    '/guide/deploy/留言板部署.md',
+                    '/guide/deploy/Vue.md',
+                    '/guide/deploy/springBoot.md',
                 ],
             },
 
             {
-                text: '软件部署',
+                text: 'GroupTwo',
                 children: [
-                    '/guide/deploy/docker部署.md',
-                    '/guide/deploy/Mysql部署.md',
-                    '/guide/deploy/Redis部署.md',
-                    '/guide/deploy/Nginx.md',
+                    '/guide/deploy/docker.md',
+                    '/guide/deploy/Mysql.md',
+                    '/guide/deploy/Redis.md',
                 ],
             },
 

@@ -1,29 +1,29 @@
 import type { SidebarConfig  } from '@vuepress/theme-default'
 
 export const sidebar: SidebarConfig = {
-        //部署侧边栏
+        //分组侧边栏
         '/guide/deploy/': [
             {
-                text: '项目部署',
+                text: 'GroupOne',
                 collapsible: true,
                 children: [
-                    '/guide/deploy/常用命令.md',
-                    '/guide/deploy/留言板部署.md',
+                    '/guide/deploy/Vue.md',
+                    '/guide/deploy/springBoot.md',
                 ],
             },
 
             {
-                text: '软件部署',
+                text: 'GroupTwo',
                 collapsible: true,
                 children: [
-                    '/guide/deploy/docker部署.md',
-                    '/guide/deploy/Mysql部署.md',
-                    '/guide/deploy/Redis部署.md',
+                    '/guide/deploy/docker.md',
+                    '/guide/deploy/Mysql.md',
+                    '/guide/deploy/Redis.md',
                 ],
             },
         ],
 
-        //软件安装破解侧边栏
+        //不分组侧边栏
         '/guide/software/': [
             {
                 text: '软件安装教程',
