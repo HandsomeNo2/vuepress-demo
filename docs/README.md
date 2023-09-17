@@ -1,8 +1,8 @@
 ---
 home: true
 title: 首页
-heroImage: /images/bz2.jpg #白色主题显示的图片
-heroImageDark: /images/bz.jpg #黑色主题显示的图片
+heroImage: /images/1.jpg #白色主题显示的图片
+heroImageDark: /images/2.jpg #黑色主题显示的图片
 actions:
   - text: 留言板
     link: http://issue.choujuju.cn/
